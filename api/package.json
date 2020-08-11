@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "local": "nodemon src/server.js",
+    "knex:migrate": "knex migrate:latest",
+    "knex:rollback": "knex migrate:rollback"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.4",
+    "nodemon": "^2.0.4",
+    "sqlite3": "^5.0.0"
+  }
+}
